@@ -1,0 +1,114 @@
+#morse-input {
+  height: 100px;
+  width: 100px;
+  background-color: #8A90A4;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#morse-input:active {
+  height: 110px;
+  width: 110px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
+main {
+	margin: 55px 5%;
+}
+
+/*#about-project {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 500px;
+	background: url('assets/background-1.jpg') no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+}
+*/
+/*#about-project h1 {
+	width: 100%;
+	font-size: 24px;
+	font-weight: 700;
+	color: rgba(0,0,255,0.5); 
+	letter-spacing: -5px;
+	display: inline;
+}
+
+#about-project h1:after {
+	content: "Morse Code Decoder";
+	position: absolute;
+	left: 25px;
+	top: 5px;
+}
+
+#morse-code {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: rgba(255,0,0,0.5);   
+
+}*/
+
+.navbar {
+	background: #0E344C;
+}
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: white;
+	opacity: .8;
+}
+
+h1 {
+	display: inline;
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: #434F32;
+}
+
+h1:after {
+	width: 100%;
+	content: "Morse Code Decoder";
+	position: absolute; left: 6px; top: 4px;
+	color: #6FB271;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/*
+ * ======================================
+ * =============== FOOTER ===============
+ * ======================================
+ */
+
+ footer {
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	background: #699955;
+ 	color: white;
+ 	padding: 10px;
+ }
+
+ footer p {
+ 	text-align: center;
+ 	margin: 0;
+ }
